@@ -177,7 +177,7 @@ html {
 
     .conteudo {
         width: 400px;
-        height: 90vh;
+        height: 75vh;
     }
 
     .imagem {
@@ -272,7 +272,7 @@ html {
         z-index: 1;
         background-color: var(--cor-background);
         width: 500px;
-        height: 650px;
+        height: 6050px;
         border-radius: 10px;
         justify-content: center;
         align-items: center;
