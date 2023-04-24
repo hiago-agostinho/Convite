@@ -237,7 +237,7 @@ html {
         z-index: 1;
         background-color: var(--cor-background);
         width: 500px;
-        height: 650px;
+        height: 450px;
         border-radius: 10px;
         justify-content: center;
         align-items: center;
