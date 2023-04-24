@@ -181,19 +181,19 @@ html {
     }
 
     .imagem {
-       width: 200px;
+       width: 170px;
     }
 
     .titulo {
-        font-size: 28pt;
+        font-size: 24pt;
     }
 
     .infos {
-        font-size: 18pt;
+        font-size: 14pt;
     }
 
     .pedidos {
-        font-size: 12pt;
+        font-size: 10pt;
     }
 }
 
