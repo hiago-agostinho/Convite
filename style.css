@@ -166,7 +166,7 @@ html {
     .conteudo {
         z-index: 1;
         background-color: var(--cor-background);
-        width: 400px;
+        width: 300px;
         height: 650px;
         border-radius: 10px;
         justify-content: center;
@@ -176,7 +176,7 @@ html {
     }
 
     .conteudo {
-        height: 85vh;
+        height: 80vh;
     }
 
     .imagem {
