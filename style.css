@@ -163,7 +163,7 @@ html {
 }
 
 @media screen and (max-width: 412px) {
-    .conteudo .convite {
+    .conteudo {
         z-index: 1;
         background-color: var(--cor-background);
         width: 400px;
@@ -176,7 +176,7 @@ html {
     }
 
     .conteudo {
-        height: 70vh;
+        height: 85vh;
     }
 
     .imagem {
