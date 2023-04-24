@@ -195,3 +195,37 @@ html {
         font-size: 12pt;
     }
 }
+
+@media screen and (max-width: 412px) {
+    .conteudo .convite {
+        z-index: 1;
+        background-color: var(--cor-background);
+        width: 400px;
+        height: 550px;
+        border-radius: 10px;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        padding: 5px;
+    }
+
+    .conteudo {
+        height: 65vh;
+    }
+
+    .imagem {
+       width: 200px;
+    }
+
+    .titulo {
+        font-size: 28pt;
+    }
+
+    .infos {
+        font-size: 18pt;
+    }
+
+    .pedidos {
+        font-size: 12pt;
+    }
+}
