@@ -95,9 +95,16 @@ html {
 }
 
 @media screen and (max-width: 600px) {
-    .convite {
-        height: 100%;
-        width: 100%;
+    .conteudo .convite {
+        z-index: 1;
+        background-color: var(--cor-background);
+        width: 480px;
+        height: 580px;
+        border-radius: 10px;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        padding: 5px;
     }
 
     .conteudo {
@@ -106,6 +113,74 @@ html {
 
     .imagem {
         width: 200px;
+    }
+
+    .titulo {
+        font-size: 28pt;
+    }
+
+    .infos {
+        font-size: 18pt;
+    }
+
+    .pedidos {
+        font-size: 12pt;
+    }
+}
+
+ @media screen and (max-width: 550px) {
+    .conteudo .convite {
+        z-index: 1;
+        background-color: var(--cor-background);
+        width: 480px;
+        height: 580px;
+        border-radius: 10px;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        padding: 5px;
+    }
+
+    .conteudo {
+        height: 75vh;
+    }
+
+    .imagem {
+       width: 200px;
+    }
+
+    .titulo {
+        font-size: 28pt;
+    }
+
+    .infos {
+        font-size: 18pt;
+    }
+
+    .pedidos {
+        font-size: 12pt;
+    }
+}
+
+@media screen and (max-width: 412px) {
+    .conteudo .convite {
+        z-index: 1;
+        background-color: var(--cor-background);
+        width: 400px;
+        height: 650px;
+        border-radius: 10px;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        padding: 5px;
+    }
+
+    .conteudo {
+        height: 75vh;
+    }
+
+    .imagem {
+       width: 200px;
     }
 
     .titulo {
