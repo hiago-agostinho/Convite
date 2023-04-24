@@ -1,8 +1,7 @@
 :root {
     --cor-background: #212123;
     --cor-reflexo: rgba(255, 255, 255, 0.4);
-    --cores-dancantes: rgb(76, 217, 105), rgb(52, 170, 220), rgb(88, 86, 217),
-        rgb(255, 45, 83);
+    --cores-dancantes: rgb(76, 217, 105), rgb(52, 170, 220), rgb(88, 86, 217), rgb(255, 45, 83);
 }
 
 * {
@@ -14,7 +13,7 @@
     -moz-osx-font-smoothing: grayscale;
     scroll-behavior: smooth;
     margin: 0;
-}
+} 
 
 html {
     display: flex;
@@ -60,7 +59,7 @@ html {
     padding: 5px;
 }
 
-.conteudo>span {
+.conteudo > span {
     height: 100%;
     width: 100%;
     background: inherit;
@@ -95,28 +94,29 @@ html {
     margin-bottom: 10px;
 }
 
-/* Estilos para telas menores */
-@media only screen and (max-width: 600px) {
-  .conteudo {
-    width: 90%;
-    height: auto;
-  }
-  .conteudo .convite {
-    width: 90%;
-    height: auto;
-  }
-  .titulo {
-    padding-top: 50px;
-    font-size: 24pt;
-    margin-top: 150px;
-  }
-  .infos {
-    font-size: 14pt;
-  }
-  .pedidos {
-    font-size: 12pt;
-  }
-  .imagem {
-    width: 150px;
-  }
+@media screen and (max-width: 600px) {
+    .convite {
+        height: 100%;
+        width: 100%;
+    }
+
+    .conteudo {
+        height: 75vh;
+    }
+
+    .imagem {
+        width: 200px;
+    }
+
+    .titulo {
+        font-size: 28pt;
+    }
+
+    .infos {
+        font-size: 18pt;
+    }
+
+    .pedidos {
+        font-size: 12pt;
+    }
 }
