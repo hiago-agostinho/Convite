@@ -172,7 +172,7 @@ html {
         justify-content: center;
         align-items: center;
         text-align: center;
-        max-width: 450px;
+        max-width: 350px;
     }
 
     .conteudo {
@@ -272,17 +272,17 @@ html {
         z-index: 1;
         background-color: var(--cor-background);
         width: 500px;
-        height: 6050px;
+        height: 650px;
         border-radius: 10px;
         justify-content: center;
         align-items: center;
         text-align: center;
-        max-width: 100px;
+        max-width: 360px;
     }
 
     .conteudo {
         width: 400px;
-        height: 105vh;
+        height: 85vh;
     }
 
     .imagem {
