@@ -165,7 +165,7 @@ html {
 @media screen and (max-width: 412px) {
     .convite {
         z-index: 1;
-        background-color: var(--cor-background);
+        background-color: #212123;
         width: 150px;
         height: 650px;
         border-radius: 10px;
