@@ -236,7 +236,7 @@ html {
     .convite {
         z-index: 1;
         background-color: var(--cor-background);
-        width: 50px;
+        width: 500px;
         height: 650px;
         border-radius: 10px;
         justify-content: center;
@@ -247,7 +247,7 @@ html {
 
     .conteudo {
         width: 400px;
-        height: 80vh;
+        height: 85vh;
     }
 
     .imagem {
