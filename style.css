@@ -139,7 +139,6 @@ html {
         align-items: center;
         text-align: center;
         padding: 5px;
-        max-width: 600px;
     }
 
     .conteudo {
@@ -173,7 +172,7 @@ html {
         justify-content: center;
         align-items: center;
         text-align: center;
-        max-width: 350px;
+        max-width: 400px;
     }
 
     .conteudo {
