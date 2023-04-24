@@ -172,6 +172,7 @@ html {
         justify-content: center;
         align-items: center;
         text-align: center;
+        max-width: 412px;
         /* padding: 5px; */
     }
 
@@ -181,7 +182,7 @@ html {
     }
 
     .imagem {
-       width: 100px;
+       width: 170px;
     }
 
     .titulo {
