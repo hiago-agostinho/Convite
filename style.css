@@ -41,7 +41,7 @@ html {
     }
 }
 
-.conteudo .convite {
+.conteudo .convite{
     position: absolute;
     left: 50%;
     top: 50%;
@@ -60,18 +60,18 @@ html {
     padding: 5px;
 }
 
-.conteudo > span {
+.conteudo>span {
     height: 100%;
     width: 100%;
     background: inherit;
     border-radius: 10px;
 }
 
-.conteudo > span:nth-child(1) {
+.conteudo>span:nth-child(1) {
     filter: blur(2px);
 }
 
-.conteudo > span:nth-child(2) {
+.conteudo>span:nth-child(2) {
     filter: blur(5px);
 }
 
@@ -95,32 +95,28 @@ html {
     margin-bottom: 10px;
 }
 
-/* Regras de mídia para telas menores */
-@media screen and (max-width: 600px) {
+/* Estilos para telas menores */
+@media only screen and (max-width: 600px) {
   .conteudo {
-    width: 100%;
-    height: 100%;
-    border-radius: 0;
+    width: 90%;
+    height: auto;
   }
   .conteudo .convite {
-    width: 100%;
-    height: 100%;
-    border-radius: 0;
-    padding: 10px;
+    width: 90%;
+    height: auto;
   }
   .titulo {
-    padding-top: 30px;
+    padding-top: 50px;
     font-size: 24pt;
     margin-top: 150px;
   }
   .infos {
-    font-size: 16pt;
+    font-size: 14pt;
   }
   .pedidos {
     font-size: 12pt;
   }
   .imagem {
     width: 150px;
-    margin-bottom: 5px;
   }
 }
