@@ -200,7 +200,7 @@ html {
 @media screen and (max-width: 320px) {
     .conteudo .convite {
         z-index: 1;
-        background-color: var(--cor-background);
+        background-color: #212123;
         width: 400px;
         height: 550px;
         border-radius: 10px;
