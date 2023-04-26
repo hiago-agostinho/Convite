@@ -1,18 +1,16 @@
 <!DOCTYPE html>
 <html>
-<head>
-	<title>Adicionar Música à Playlist</title>
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-	<script src="https://apis.google.com/js/api.js"></script>
-	<script src="app.js"></script>
-</head>
-<body>
-	<h1>Adicionar Música à Playlist</h1>
-	<form>
-		<label for="videoId">ID do Vídeo do YouTube:</label>
-		<input type="text" id="videoId" name="videoId" required>
-		<br>
-		<input type="button" value="Adicionar à Playlist" onclick="addToPlaylist()">
-	</form>
-</body>
+    <head>
+        <meta charset="utf-8">
+        <title>Adicionar música à playlist</title>
+    </head>
+    <body>
+        <h1>Adicionar música à playlist</h1>
+        <form>
+            <label for="videoId">ID do vídeo:</label>
+            <input type="text" id="videoId" name="videoId"><br><br>
+            <button type="button" onclick="addToPlaylist()">Adicionar à playlist</button>
+        </form>
+        <script src="app.js"></script>
+    </body>
 </html>
