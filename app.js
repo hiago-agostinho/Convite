@@ -45,6 +45,20 @@ function addVideoToPlaylist(videoId, playlistId) {
   });
 }
 
+// carregar a API do cliente do YouTube e autenticar o usuário
+function loadClient() {
+    gapi.load('client:auth2', initClient);
+    gapi.auth2.init({
+      client_id: CLIENT_ID,
+      scope: SCOPE
+    }).then(function() {
+      // ouvir o clique do botão de autenticação
+      document.getElementById('authorize-button').addEventListener('click', handleAuthClick);
+    }, function(error) {
+      console.log(JSON.stringify(error, null, 2));
+    });
+  }
+
 // adicionar música à lista de reprodução
 function addToPlaylist() {
   const videoId = document.getElementById('videoId').value;
@@ -52,20 +66,6 @@ function addToPlaylist() {
   
   // enviar solicitação HTTP POST para adicionar o vídeo à lista de reprodução
   addVideoToPlaylist(videoId, playlistId);
-}
-
-// carregar a API do cliente do YouTube e autenticar o usuário
-function loadClient() {
-  gapi.load('client:auth2', initClient);
-  gapi.auth2.init({
-    client_id: CLIENT_ID,
-    scope: SCOPE
-  }).then(function() {
-    // ouvir o clique do botão de autenticação
-    document.getElementById('authorize-button').addEventListener('click', handleAuthClick);
-  }, function(error) {
-    console.log(JSON.stringify(error, null, 2));
-  });
 }
 
 // carregar a API do cliente do YouTube
