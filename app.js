@@ -2,7 +2,7 @@
 function addToPlaylist() {
     const videoId = document.getElementById('videoId').value;
     const playlistId = 'https://www.youtube.com/playlist?list=PLEzcYxvLqJSOzKS9ExixleaOIOSz-zpNr';
-    const accessToken = 'AIzaSyDy-hddcHf4A6LDjwLvpHBaOkoc34GINh4';
+    const accessToken = 'AIzaSyAmD3rZxyCA5CzgOTijslCOZpzzcT3sHcA';
     
     // enviar solicitação HTTP POST para adicionar o vídeo à lista de reprodução
     const xhr = new XMLHttpRequest();
